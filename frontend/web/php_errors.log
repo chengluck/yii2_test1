@@ -1,0 +1,2 @@
+[18-Dec-2018 08:43:48 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php on line 490
+[18-Dec-2018 08:43:51 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php on line 490

@@ -1,0 +1,1613 @@
+[05-Jan-2019 09:31:32 UTC] An Error occurred while handling another error:
+exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\controllers\SiteController' in file: G:\phpStudy\PHPTutorial\WWW\advanced/api/controllers/SiteController.php. Namespace missing?' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\controllers...')
+#1 [internal function]: spl_autoload_call('api\\controllers...')
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(637): class_exists('api\\controllers...')
+#3 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('site/error')
+#5 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#6 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '60771',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546680691.1129999,
+    'REQUEST_TIME' => 1546680691,
+]
+[05-Jan-2019 09:32:34 UTC] An Error occurred while handling another error:
+exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\controllers\SiteController' in file: G:\phpStudy\PHPTutorial\WWW\advanced/api/controllers/SiteController.php. Namespace missing?' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\controllers...')
+#1 [internal function]: spl_autoload_call('api\\controllers...')
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(637): class_exists('api\\controllers...')
+#3 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('site/error')
+#5 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#6 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '60869',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546680753.632,
+    'REQUEST_TIME' => 1546680753,
+]
+[05-Jan-2019 09:40:41 UTC] An Error occurred while handling another error:
+exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\controllers\SiteController' in file: G:\phpStudy\PHPTutorial\WWW\advanced/api/controllers/SiteController.php. Namespace missing?' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\controllers...')
+#1 [internal function]: spl_autoload_call('api\\controllers...')
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(637): class_exists('api\\controllers...')
+#3 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('site/error')
+#5 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#6 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '61686',
+    'REDIRECT_URL' => '/blogapi',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/blogapi',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546681240.6010001,
+    'REQUEST_TIME' => 1546681240,
+]
+[05-Jan-2019 09:42:51 UTC] An Error occurred while handling another error:
+exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\controllers\SiteController' in file: G:\phpStudy\PHPTutorial\WWW\advanced/api/controllers/SiteController.php. Namespace missing?' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\controllers...')
+#1 [internal function]: spl_autoload_call('api\\controllers...')
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(637): class_exists('api\\controllers...')
+#3 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('site/error')
+#5 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#6 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => 'fd0bf847-ed54-c758-b123-da059a481a4b',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '61880',
+    'REDIRECT_URL' => '/blogapi',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/blogapi',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546681370.964,
+    'REQUEST_TIME' => 1546681370,
+]
+[05-Jan-2019 09:54:17 UTC] An Error occurred while handling another error:
+exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\controllers\SiteController' in file: G:\phpStudy\PHPTutorial\WWW\advanced/api/controllers/SiteController.php. Namespace missing?' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\controllers...')
+#1 [internal function]: spl_autoload_call('api\\controllers...')
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(637): class_exists('api\\controllers...')
+#3 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('site/error')
+#5 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#6 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '62945',
+    'REDIRECT_URL' => '/blogapi',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/blogapi',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546682057.266,
+    'REQUEST_TIME' => 1546682057,
+]
+[06-Jan-2019 07:37:08 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => '160dec29-dea2-fd77-e9e7-c6c6e36429cd',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53471',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760227.859,
+    'REQUEST_TIME' => 1546760227,
+]
+[06-Jan-2019 07:37:18 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => 'e561daed-0706-11db-b0a2-9f06c9100014',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53480',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760238.6110001,
+    'REQUEST_TIME' => 1546760238,
+]
+[06-Jan-2019 07:37:31 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53497',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760250.8,
+    'REQUEST_TIME' => 1546760250,
+]
+[06-Jan-2019 07:38:19 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_ACCEPT_ENCODING' => 'compress,gzip',
+    'HTTP_CONNECTION' => 'Close',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53481',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/index.php',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760238.6340001,
+    'REQUEST_TIME' => 1546760238,
+]
+[06-Jan-2019 07:39:30 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'localhost',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'Phpstorm-82116ed2=e30a8fcc-3041-4229-988f-848edd475c52; Phpstorm-f5a92a92=f634c7cf-269b-4ab8-a19f-183fe41be38f; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_ADDR' => '::1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '::1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53586',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/advanced/api/web/',
+    'SCRIPT_NAME' => '/advanced/api/web/index.php',
+    'PHP_SELF' => '/advanced/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760370.6559999,
+    'REQUEST_TIME' => 1546760370,
+]
+[06-Jan-2019 07:39:41 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'localhost',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'Phpstorm-82116ed2=e30a8fcc-3041-4229-988f-848edd475c52; Phpstorm-f5a92a92=f634c7cf-269b-4ab8-a19f-183fe41be38f; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_ADDR' => '::1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '::1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53597',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/advanced/api/web/index.php/goods',
+    'SCRIPT_NAME' => '/advanced/api/web/index.php',
+    'PATH_INFO' => '/goods',
+    'PATH_TRANSLATED' => 'G:\\phpStudy\\PHPTutorial\\WWW\\goods',
+    'PHP_SELF' => '/advanced/api/web/index.php/goods',
+    'REQUEST_TIME_FLOAT' => 1546760381.2550001,
+    'REQUEST_TIME' => 1546760381,
+]
+[06-Jan-2019 07:44:00 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'localhost',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'Phpstorm-82116ed2=e30a8fcc-3041-4229-988f-848edd475c52; Phpstorm-f5a92a92=f634c7cf-269b-4ab8-a19f-183fe41be38f; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_ADDR' => '::1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '::1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53874',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/advanced/api/web/index.php/goods',
+    'SCRIPT_NAME' => '/advanced/api/web/index.php',
+    'PATH_INFO' => '/goods',
+    'PATH_TRANSLATED' => 'G:\\phpStudy\\PHPTutorial\\WWW\\goods',
+    'PHP_SELF' => '/advanced/api/web/index.php/goods',
+    'REQUEST_TIME_FLOAT' => 1546760640.6630001,
+    'REQUEST_TIME' => 1546760640,
+]
+[06-Jan-2019 07:44:02 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'localhost',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'Phpstorm-82116ed2=e30a8fcc-3041-4229-988f-848edd475c52; Phpstorm-f5a92a92=f634c7cf-269b-4ab8-a19f-183fe41be38f; XDEBUG_SESSION=XDEBUG_ECLIPSE',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_ADDR' => '::1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '::1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53875',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/advanced/api/web/index.php/goods',
+    'SCRIPT_NAME' => '/advanced/api/web/index.php',
+    'PATH_INFO' => '/goods',
+    'PATH_TRANSLATED' => 'G:\\phpStudy\\PHPTutorial\\WWW\\goods',
+    'PHP_SELF' => '/advanced/api/web/index.php/goods',
+    'REQUEST_TIME_FLOAT' => 1546760642.7550001,
+    'REQUEST_TIME' => 1546760642,
+]
+[06-Jan-2019 07:44:07 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => 'b6154db3-18c0-b377-1f09-9ab43b8ccc77',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53881',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760647.425,
+    'REQUEST_TIME' => 1546760647,
+]
+[06-Jan-2019 07:44:29 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('default/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => '59f8d1ce-35a6-cb05-ce7d-1a84b7b51238',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53895',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760669.464,
+    'REQUEST_TIME' => 1546760669,
+]
+[06-Jan-2019 07:44:42 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('default/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '53911',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546760682.6199999,
+    'REQUEST_TIME' => 1546760682,
+]
+[06-Jan-2019 08:10:08 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('default/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => 'e69ae3f7-c138-7293-7fc0-8c3c4632844d',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55164',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762208.6400001,
+    'REQUEST_TIME' => 1546762208,
+]
+[06-Jan-2019 08:11:29 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_POSTMAN_TOKEN' => 'e267423c-7c1d-640f-4dc1-6e60ed514d35',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55200',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762289.737,
+    'REQUEST_TIME' => 1546762289,
+]
+[06-Jan-2019 08:11:35 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55205',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762295.454,
+    'REQUEST_TIME' => 1546762295,
+]
+[06-Jan-2019 08:15:02 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55384',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762502.2950001,
+    'REQUEST_TIME' => 1546762502,
+]
+[06-Jan-2019 08:15:04 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55385',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762504.181,
+    'REQUEST_TIME' => 1546762504,
+]
+[06-Jan-2019 08:17:19 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "modules/v1/views/default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('modules/v1/view...')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55469',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762639.063,
+    'REQUEST_TIME' => 1546762639,
+]
+[06-Jan-2019 08:17:34 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/modules/v1/views/default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('api/modules/v1/...')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55478',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762654.277,
+    'REQUEST_TIME' => 1546762654,
+]
+[06-Jan-2019 08:18:53 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('default/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55523',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762733.4630001,
+    'REQUEST_TIME' => 1546762733,
+]
+[06-Jan-2019 08:20:14 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "default/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('default/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55607',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762814.247,
+    'REQUEST_TIME' => 1546762814,
+]
+[06-Jan-2019 08:20:28 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55615',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762828.0910001,
+    'REQUEST_TIME' => 1546762828,
+]
+[06-Jan-2019 08:21:12 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55653',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762871.9389999,
+    'REQUEST_TIME' => 1546762871,
+]
+[06-Jan-2019 08:21:13 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55654',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762873.6199999,
+    'REQUEST_TIME' => 1546762873,
+]
+[06-Jan-2019 08:21:14 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55656',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762874.0669999,
+    'REQUEST_TIME' => 1546762874,
+]
+[06-Jan-2019 08:21:14 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 G:\phpStudy\PHPTutorial\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\phpStudy\PHPTutorial\WWW\advanced\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'backend.api.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,und;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=4iqe7spcn4s4lj3g1crcekj3q0; _csrf-backend=f6d5d82357949938eaf230d37a11dc5ba72180588bbf2b371111a224790c7fb7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22roZQuOQWQ87_mZOlKZj1A3oP0mP4W_CC%22%3B%7D',
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\doxygen\\bin;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Users\\cheng\\AppData\\Local\\Microsoft\\WindowsApps;G:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\Program Files (x86)\\Java\\jdk1.7.0_80\\bin;G:\\phpStudy\\PHPTutorial\\php\\php-5.4.45;C:\\Users\\cheng\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Ruby23-x64\\bin;C:\\Users\\cheng\\AppData\\Local\\GitHubDesktop\\bin',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45',
+    'SERVER_NAME' => 'backend.api.com',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web',
+    'SERVER_ADMIN' => 'admin@php.cn',
+    'SCRIPT_FILENAME' => 'G:/phpStudy/PHPTutorial/WWW/advanced/api/web/index.php',
+    'REMOTE_PORT' => '55658',
+    'REDIRECT_URL' => '/goods',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/goods',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1546762874.6459999,
+    'REQUEST_TIME' => 1546762874,
+]
